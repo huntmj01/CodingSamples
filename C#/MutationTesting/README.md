@@ -1,0 +1,1 @@
+CopStryker is a project I created for a community of practice on Mutation Testing. I showed a group of developers a project with completly useless tests that had 100% code coverage. I then showed the group how the Stryker Mutation Testing framework could be used to see if their tests were actually useless.
