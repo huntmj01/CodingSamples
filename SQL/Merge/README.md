@@ -1,0 +1,1 @@
+Goal: Write SQL to transfer columns 1, 2, and 3 from a SourceTable to a StaggingTable and then merge the StaggingTable into a TargetTable. Assume the SSIS package has already been written.
