@@ -1,0 +1,27 @@
+{
+  "stryker-config": {
+	"reporters": [
+	  "dots",
+	  "progress",
+	  "html"
+	],
+	"log-level": "info",
+	"timeout-ms": 3000,
+	"log-file": true,
+	"max-concurrent-test-runners": 4,
+	"threshold-high": 90,
+	"threshold-low": 80,
+	"threshold-break": 70,
+	"mutate": [
+	  "**/Problem 1/*.*",
+	  "**/Problem 2/*.*",
+	  "**/Problem 2 Strategy Pattern/*.*",
+	  "**/Problem 2 Strategy Pattern/**/*.*",
+	  "**/Problem 3/*.*",
+	  "**/Problem 4/*.*"
+	],
+	"excluded-mutations": [
+
+	]
+  }
+}
