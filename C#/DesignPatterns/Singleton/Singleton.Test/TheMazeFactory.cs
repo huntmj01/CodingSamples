@@ -3,7 +3,7 @@ using NUnit.Framework;
 namespace Singleton.Test
 {
 	[TestFixture]
-	public class GivenTheMazeFactory
+	public class TheMazeFactory
 	{
 
 		[TestFixture]
