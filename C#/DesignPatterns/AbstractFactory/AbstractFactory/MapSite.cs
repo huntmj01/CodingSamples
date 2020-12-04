@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AbstractFactory
+﻿namespace AbstractFactory
 {
 	// Use the abstract modifier in a class declaration to indicate that a class is intended only 
 	// to be a base class of other classes, not instantiated on its own
