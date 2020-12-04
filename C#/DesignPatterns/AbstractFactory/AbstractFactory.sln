@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{BC4BE5C8-0BEF-426B-91C3-7B0EC2CBBA80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory.Test", "TheMazeGame\AbstractFactory.Test.csproj", "{2412C08B-48F6-4F17-A966-3F9C466CAA79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC4BE5C8-0BEF-426B-91C3-7B0EC2CBBA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4BE5C8-0BEF-426B-91C3-7B0EC2CBBA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4BE5C8-0BEF-426B-91C3-7B0EC2CBBA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4BE5C8-0BEF-426B-91C3-7B0EC2CBBA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2412C08B-48F6-4F17-A966-3F9C466CAA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2412C08B-48F6-4F17-A966-3F9C466CAA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2412C08B-48F6-4F17-A966-3F9C466CAA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2412C08B-48F6-4F17-A966-3F9C466CAA79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE7B3C08-3C4F-4F29-94CC-639311A75002}
+	EndGlobalSection
+EndGlobal
