@@ -1,3 +1,4 @@
+using AbstractFactory.Factories;
 using NUnit.Framework;
 
 namespace AbstractFactory.Test
@@ -5,11 +6,15 @@ namespace AbstractFactory.Test
 	public class TheMazeGame
 	{
 		MazeGame mazeGame;
+		MazeFactory mazeFactory;
+		Maze maze;
 
 		[SetUp]
 		public void Setup()
 		{
 			mazeGame = new MazeGame();
+			mazeFactory = new MazeFactory();
+			maze = mazeGame.CreateMaze(mazeFactory);
 		}
 
 		[Test]
@@ -21,14 +26,12 @@ namespace AbstractFactory.Test
 		[Test]
 		public void WhenCreatingMaze_ReturnsMaze()
 		{
-			var maze = mazeGame.CreateMaze();
 			Assert.IsInstanceOf<Maze>(maze);
 		}
 
 		[Test]
 		public void WhenCreatingMaze_Adds2RoomsToMaze()
 		{
-			var maze = mazeGame.CreateMaze();
 			var room1 = maze.GetRoomNumber(1);
 			var room2 = maze.GetRoomNumber(2);
 
@@ -41,7 +44,6 @@ namespace AbstractFactory.Test
 		[Test]
 		public void WhenCreatingMaze_SetsSidesOfRoom1()
 		{
-			var maze = mazeGame.CreateMaze();
 			var room1 = maze.GetRoomNumber(1);
 			var north = room1.GetSide(Direction.North);
 			var east = room1.GetSide(Direction.East);
@@ -57,7 +59,6 @@ namespace AbstractFactory.Test
 		[Test]
 		public void WhenCreatingMaze_SetsSidesOfRoom2()
 		{
-			var maze = mazeGame.CreateMaze();
 			var room2 = maze.GetRoomNumber(2);
 			var north = room2.GetSide(Direction.North);
 			var east = room2.GetSide(Direction.East);
