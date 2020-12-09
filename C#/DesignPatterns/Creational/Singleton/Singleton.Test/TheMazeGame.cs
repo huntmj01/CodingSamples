@@ -41,8 +41,7 @@ namespace Singleton.Test
 		public void ShouldAllowOnlyASingleInstanceOfMazeFactory()
 		{
 			mazeFactory = MazeFactorySingleton.Instance("bombed");
-			Assert.IsInstanceOf<MazeFactorySingleton>(mazeFactory);
-			Assert.IsNotInstanceOf<BombedMazeFactory>(mazeFactory);
+			Assert.AreEqual("Singleton.MazeFactorySingleton", MazeFactorySingleton.GetInstanceType());
 		}
 
 		public class WhenCreatingMaze : MazeGameTestSetup {
@@ -118,6 +117,14 @@ namespace Singleton.Test
 			public void ReturnsMaze()
 			{
 				Assert.IsInstanceOf<Maze>(maze);
+
+			}
+
+			[Test]
+			public void ShouldAllowOnlyASingleInstanceOfMazeFactory()
+			{
+				mazeFactory = MazeFactorySingleton.Instance("");
+				Assert.AreEqual("Singleton.MazeFactorySingleton+EnchantedMazeFactory", MazeFactorySingleton.GetInstanceType());
 			}
 
 			[Test]
@@ -178,6 +185,13 @@ namespace Singleton.Test
 			public void ReturnsMaze()
 			{
 				Assert.IsInstanceOf<Maze>(maze);
+			}
+
+			[Test]
+			public void ShouldAllowOnlyASingleInstanceOfMazeFactory()
+			{
+				mazeFactory = MazeFactorySingleton.Instance("");
+				Assert.AreEqual("Singleton.MazeFactorySingleton+BombedMazeFactory", MazeFactorySingleton.GetInstanceType());
 			}
 
 			[Test]

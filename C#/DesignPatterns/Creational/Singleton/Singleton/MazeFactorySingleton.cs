@@ -55,5 +55,41 @@
 		{
 			_instance = null;
 		}
+
+		public static string GetInstanceType()
+		{
+			return _instance.GetType().ToString();
+		}
+
+		internal class EnchantedMazeFactory : MazeFactorySingleton
+		{
+			public override Door MakeDoor(Room room1, Room room2)
+			{
+				return new DoorNeedingSpell(room1, room2);
+			}
+
+			public override Room MakeRoom(int roomNumber)
+			{
+				return new EnchantedRoom(roomNumber, CastSpell());
+			}
+
+			private Spell CastSpell()
+			{
+				return new Spell();
+			}
+		}
+
+		internal class BombedMazeFactory : MazeFactorySingleton
+		{
+			public override Wall MakeWall()
+			{
+				return new BombedWall();
+			}
+
+			public override Room MakeRoom(int roomNumber)
+			{
+				return new RoomWithABomb(roomNumber);
+			}
+		}
 	}
 }
