@@ -1,4 +1,3 @@
-using AbstractFactory.Factories;
 using NUnit.Framework;
 
 namespace AbstractFactory.Test

@@ -1,4 +1,3 @@
-using Prototype.Prototypes;
 using NUnit.Framework;
 
 namespace Prototype.Test

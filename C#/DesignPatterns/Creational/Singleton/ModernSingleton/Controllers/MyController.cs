@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ModernSingleton.Singletons;
+using ModernSingleton;
 
 namespace ModernSingleton.Controllers
 {

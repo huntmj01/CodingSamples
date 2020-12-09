@@ -1,6 +1,4 @@
-﻿using Singleton.Singletons;
-
-namespace Singleton
+﻿namespace Singleton
 {
 	public class MazeGame
 	{

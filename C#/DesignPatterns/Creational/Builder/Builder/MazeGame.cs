@@ -1,6 +1,4 @@
-﻿using Builder.Builders;
-
-namespace Builder
+﻿namespace Builder
 {
 	public class MazeGame
 	{

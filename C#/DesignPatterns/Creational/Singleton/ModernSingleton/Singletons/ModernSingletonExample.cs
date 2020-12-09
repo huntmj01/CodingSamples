@@ -1,4 +1,4 @@
-﻿namespace ModernSingleton.Singletons
+﻿namespace ModernSingleton
 {
 	public class ModernSingletonExample : IModernSingletonExample
 	{

@@ -1,6 +1,4 @@
-﻿using Prototype.Prototypes;
-
-namespace Prototype
+﻿namespace Prototype
 {
 	public class MazeGame
 	{

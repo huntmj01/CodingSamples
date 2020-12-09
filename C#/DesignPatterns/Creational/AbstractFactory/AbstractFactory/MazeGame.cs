@@ -1,6 +1,4 @@
-﻿using AbstractFactory.Factories;
-
-namespace AbstractFactory
+﻿namespace AbstractFactory
 {
 	public class MazeGame
 	{

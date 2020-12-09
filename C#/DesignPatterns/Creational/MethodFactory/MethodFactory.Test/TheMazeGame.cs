@@ -1,4 +1,3 @@
-using MethodFactory.MethodFactories;
 using NUnit.Framework;
 
 namespace MethodFactory.Test

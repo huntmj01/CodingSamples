@@ -1,4 +1,3 @@
-using Singleton.Singletons;
 using NUnit.Framework;
 
 namespace Singleton.Test

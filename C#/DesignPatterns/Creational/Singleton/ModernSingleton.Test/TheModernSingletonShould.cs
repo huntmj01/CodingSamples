@@ -1,4 +1,4 @@
-using ModernSingleton.Singletons;
+using ModernSingleton;
 using NUnit.Framework;
 
 public class TheModernSingletonShould
