@@ -1,0 +1,19 @@
+--Matthew Hunt's Contributions--
+indexPage() - 4 hours ish
+main() - 15 minutes ish
+insertLetter() - 1 hour ish
+printTrieContents() and traverseUpTrie() - 6 hours ish
+freeTrieMemory() - 15 minutes ish
+error handling - 1 hour
+
+--Isaac Harter's Contributions--
+created struct trieNode
+created allocNewNode
+helped with main()
+helped insertLetter()
+helped with freeTrieMemory()
+did final documentation of code
+
+Isaac put in a lot of his own time, outside of us working together, 
+forming the strucuture. I'm not sure on his total hours, but he was
+great to work with and we put in an equal amount of effort in the project.

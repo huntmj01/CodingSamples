@@ -1,0 +1,298 @@
+65c65,72
+< http://users.ipfw.edu/chenz/testWeb/page_000004.html
+---
+> http://users.ipfw.edu/chenz/testWeb/page_000017.html
+> 	page
+> 	link
+> 	to
+> 	page
+> 	sports
+> 	link
+> 	to
+67d73
+< 	news
+74d79
+< 	something
+78d82
+< 	scores
+82d85
+< 	something
+89c92,93
+< http://users.ipfw.edu/chenz/testWeb/page_000024.html
+---
+> 	link
+> 	to
+90a95,96
+> 	sports
+> 	sports
+94,102c100
+< 	news
+< 	news
+< 	sports
+< 	sports
+< 	something
+< 	news
+< 	ipfw
+< 	sports
+< 	sports
+---
+> 	sport
+104,105d101
+< http://users.ipfw.edu/chenz/testWeb/page_000002.html
+< 	page
+109d104
+< 	something
+111,116c106,107
+< 	punctuation
+< 	sports
+< 	sports
+< 	sports
+< 	sports
+< 	sports
+---
+> 	some
+> 	numbers
+117a109,117
+> 	with
+> 	some
+> 	numbers
+> 	with
+> 	some
+> 	numbers
+> 	with
+> 	some
+> 	numbers
+119a120,125
+> 	with
+> 	some
+> 	numbers
+> 	with
+> 	some
+> 	numbers
+121c127
+< http://users.ipfw.edu/chenz/testWeb/page_000010.html
+---
+> http://users.ipfw.edu/chenz/testWeb/page_000011.html
+123d128
+< 	sport
+126a132
+> 	something
+130d135
+< 	ipfw
+143,150c148,163
+< 	science
+< 	another
+< 	another
+< 	another
+< 	science
+< 	sport
+< 	sport
+< 	science
+---
+> 	link
+> 	to
+> 	page
+> 	link
+> 	to
+> 	page
+> 	link
+> 	to
+> 	page
+> 	link
+> 	to
+> 	page
+> http://users.ipfw.edu/chenz/testWeb/page_000001.html
+> 	page
+> 	news
+> 	other
+152c165,167
+< 	science
+---
+> 	link
+> 	to
+> 	page
+154,157c169,170
+< 	another
+< 	another
+< 	science
+< http://users.ipfw.edu/chenz/testWeb/page_000027.html
+---
+> 	link
+> 	to
+162d174
+< 	sport
+165a178
+> 	other
+169d181
+< 	another
+173,178c185,191
+< 	computer
+< 	scores
+< 	something
+< 	computer
+< 	scores
+< 	computer
+---
+> 	link
+> 	to
+> 	page
+> 	other
+> 	sport
+> 	with
+> 	punctuation
+198a212,250
+> http://users.ipfw.edu/chenz/testWeb/page_000004.html
+> 	page
+> 	news
+> 	link
+> 	to
+> 	page
+> 	link
+> 	to
+> 	page
+> 	something
+> 	link
+> 	to
+> 	page
+> 	scores
+> 	link
+> 	to
+> 	page
+> 	something
+> 	with
+> 	some
+> 	numbers
+> 	link
+> 	to
+> 	page
+> http://users.ipfw.edu/chenz/testWeb/page_000024.html
+> 	page
+> 	with
+> 	some
+> 	numbers
+> 	news
+> 	news
+> 	sports
+> 	sports
+> 	something
+> 	news
+> 	ipfw
+> 	sports
+> 	sports
+> 	sports
+233,244c285
+< http://users.ipfw.edu/chenz/testWeb/page_000026.html
+< 	page
+< 	ipfw
+< 	news
+< 	science
+< 	another
+< 	scores
+< 	computer
+< 	news
+< 	scores
+< 	scores
+< http://users.ipfw.edu/chenz/testWeb/page_000022.html
+---
+> http://users.ipfw.edu/chenz/testWeb/page_000002.html
+246,247c287,290
+< 	scores
+< 	scores
+---
+> 	with
+> 	some
+> 	numbers
+> 	something
+250,256d292
+< 	news
+< 	news
+< 	scores
+< 	scores
+< 	scores
+< http://users.ipfw.edu/chenz/testWeb/page_000007.html
+< 	page
+258d293
+< 	scores
+260,264c295,302
+< 	sport
+< 	another
+< 	another
+< 	another
+< 	computers
+---
+> 	sports
+> 	sports
+> 	sports
+> 	sports
+> 	sports
+> 	sports
+> 	sports
+> 
+266,281c304,353
+< IDF scores are: 
+< IDF (computer): 0.955511
+< IDF (science): 1.178655
+< Web pages: 
+< 1. http://users.ipfw.edu/chenz/testWeb/page_000014.html 0.119439
+< 2. http://users.ipfw.edu/chenz/testWeb/page_000021.html 1.389228
+< 3. http://users.ipfw.edu/chenz/testWeb/page_000004.html 0.000000
+< 4. http://users.ipfw.edu/chenz/testWeb/page_000024.html 0.000000
+< 5. http://users.ipfw.edu/chenz/testWeb/page_000002.html 0.125000
+< 6. http://users.ipfw.edu/chenz/testWeb/page_000010.html 0.103448
+< 7. http://users.ipfw.edu/chenz/testWeb/page_000027.html 0.000000
+< 8. http://users.ipfw.edu/chenz/testWeb/page_000020.html 0.000000
+< 9. http://users.ipfw.edu/chenz/testWeb/page_000015.html 0.955511
+< 10. http://users.ipfw.edu/chenz/testWeb/page_000026.html 1.178655
+< 11. http://users.ipfw.edu/chenz/testWeb/page_000022.html 0.000000
+< 12. http://users.ipfw.edu/chenz/testWeb/page_000007.html 0.000000
+---
+> IDF scores are
+> IDF(computer): 1.7047481
+> IDF(science): 1.7047481
+> Web pages:
+> 1. http://users.ipfw.edu/chenz/testWeb/page_000014.html (score: 0.1065)
+> 2. http://users.ipfw.edu/chenz/testWeb/page_000020.html (score: 0.0897)
+> 
+> Enter a web query: Query is "science computer".
+> IDF scores are
+> IDF(science): 1.7047481
+> IDF(computer): 1.7047481
+> Web pages:
+> 1. http://users.ipfw.edu/chenz/testWeb/page_000014.html (score: 0.1065)
+> 2. http://users.ipfw.edu/chenz/testWeb/page_000020.html (score: 0.0897)
+> 
+> Enter a web query: Query is "ipfw computer science".
+> IDF scores are
+> IDF(ipfw): 1.7047481
+> IDF(computer): 1.7047481
+> IDF(science): 1.7047481
+> Web pages:
+> 1. http://users.ipfw.edu/chenz/testWeb/page_000024.html (score: 0.1218)
+> 2. http://users.ipfw.edu/chenz/testWeb/page_000014.html (score: 0.1065)
+> 3. http://users.ipfw.edu/chenz/testWeb/page_000020.html (score: 0.0897)
+> 
+> Enter a web query: Query is "sports scores".
+> IDF scores are
+> IDF(sports): 0.6061358
+> IDF(scores): 1.2992830
+> Web pages:
+> 1. http://users.ipfw.edu/chenz/testWeb/page_000002.html (score: 0.3410)
+> 2. http://users.ipfw.edu/chenz/testWeb/page_000024.html (score: 0.2165)
+> 3. http://users.ipfw.edu/chenz/testWeb/page_000020.html (score: 0.1003)
+> 
+> Enter a web query: Please enter a query containing only lower-case letters.
+> 
+> Enter a web query: Please enter a query containing only lower-case letters.
+> 
+> Enter a web query: Please enter a query containing only lower-case letters.
+> 
+> Enter a web query: Query is "link page".
+> IDF scores are
+> IDF(link): 0.2006707
+> IDF(page): 0.0000000
+> Web pages:
+> 1. http://users.ipfw.edu/chenz/testWeb/page_000011.html (score: 0.0627)
+> 2. http://users.ipfw.edu/chenz/testWeb/page_000021.html (score: 0.0623)
+> 3. http://users.ipfw.edu/chenz/testWeb/page_000014.html (score: 0.0502)
+> 
+> Enter a web query: Exiting the program
