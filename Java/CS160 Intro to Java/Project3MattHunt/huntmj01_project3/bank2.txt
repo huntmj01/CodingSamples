@@ -1,0 +1,5 @@
+Ghetto Chicago Bank
+0.1
+FRA 0.75
+ENG 1.45
+JPY 0.24
