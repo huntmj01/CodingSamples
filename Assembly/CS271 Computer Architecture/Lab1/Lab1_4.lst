@@ -1,0 +1,58 @@
+     Assembly listing for: Lab1_4.mas
+                Assembled: Thu Oct 20 13:48:22 EDT 2016
+
+         |                          /
+         |                          / Matthew Hunt
+         |                          / 10/20/2016
+         |                          / Lab 1.4
+         |                          / CS 271
+         |                          /
+         |                          / Case: cond = 0 then Y should be output
+         |                          / Case: cond = 1  then X should be output
+         |                          /
+         |                          
+         |         ORG 100           
+         |                          
+100 110D |         LOAD X           / Load X into AC
+101 2111 |         STORE Temp       / Store X in Temp.
+102 1110 |         LOAD Cond        / Load Cond into AC.
+103 8400 |         SKIPCOND 400     / Skip next instruction if X is zero.
+104 0112 |         JNS Subr         / Store the return address, and jump to the procedure.
+         |                          
+105 110E |         LOAD Y           / Load Y into Ac.
+106 2111 |         STORE Temp       / Store Y in Temp.
+107 1110 |         LOAD Cond        / Load Cond into AC
+108 8800 |         SKIPCOND 800     / Skip if Cond is 1.
+109 0112 |         JNS Subr         / Store the return address and jump to the procedure.
+         |                          
+10A 110F |         LOAD Num         / Load Num into AC.
+10B 6000 |         OUTPUT           / Output Num to console.
+10C 7000 |         HALT             / End program.
+         |                          
+10D 000A |  X      DEC 10           / Declare varriable to hold X.
+10E 0014 |  Y      DEC 20           / Declare varriable to hold Y.
+10F 0000 |  Num    DEC 00           / Declare varriable to hold the number to output
+110 0001 |  Cond   DEC 01           / Declare varriable to hold the condition of 1 or 0.
+111 0000 |  Temp   DEC 0            / Declare varriable to to temporarily hold X and Y.
+112 0000 |  Subr   HEX 0            / Declare varriable to hold return address.
+         |                          	
+113 1111 |         LOAD Temp        / Load Number into AC.
+114 210F |         STORE Num        / Store Temp in Num.
+115 C112 |         JUMPI Subr       / Return to caller.
+         |         END               
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          Cond   |   110   | 102, 107
+          Num    |   10F   | 10A, 114
+          Subr   |   112   | 104, 109, 115
+          Temp   |   111   | 101, 106, 113
+          X      |   10D   | 100
+          Y      |   10E   | 105
+         --------------------------------------------------
+
+

@@ -1,0 +1,100 @@
+     Assembly listing for: Lab1_1.mas
+                Assembled: Thu Oct 20 14:09:21 EDT 2016
+
+         |                          /
+         |                          / Matthew Hunt
+         |                          / 10/20/2016
+         |                          / Lab 1.1
+         |                          / CS 271
+         |                          /
+         |                          / 1
+         |                          / 1
+         |                          / 1+1 = 2
+         |                          / 1+2 = 3
+         |                          / 2+3 = 5
+         |                          / 3+5 = 8
+         |                          / 5+8 = 13  <-- Target
+         |                          / 8+13 = 21 
+         |                          /
+         |                          
+         |         ORG 100           
+         |                          
+100 111D |         LOAD ONE          
+101 6000 |         OUTPUT            
+102 1118 |  Cond   LOAD COUNT       / Load count into AC
+103 4122 |         SUBT SIX         / Remove 10 from count
+104 8000 |         SKIPCOND 000     / Skipcond 000 if AC < 0
+105 9117 |         JUMP End         / End Loop
+         |                                  
+106 1118 |  Loop   LOAD COUNT       / Load count into AC
+107 311D |         ADD ONE          / Increment Count by 1
+108 2118 |         STORE COUNT      / Store AC in count
+109 010B |         JNS Fibb          
+10A 9102 |         JUMP Cond        / Check loop conditions
+         |                                  
+10B 0000 |  Fibb   HEX 000          / Store value for JNS
+10C A000 |         CLEAR            / AC = 0
+         |                                  
+         |                                  / Fi = F1 + F2
+10D 311A |         ADD F1           / AC + F1
+10E 311B |         ADD F2           / AC + F2
+10F 2119 |         STORE Fi         / Fi = AC
+         |                                  
+         |                                  / F1 = F2
+110 111B |         LOAD F2          / AC = F2
+111 211A |         STORE F1         / F1 = AC
+         |                                  
+         |                                  / F2 = Fi
+112 1119 |         LOAD Fi          / AC = Fi
+113 211B |         STORE F2         / F2 = AC 
+         |                                  
+         |                                  / Quick Output
+114 1119 |         LOAD Fi          / AC = FI
+115 6000 |         OUTPUT           / Output AC
+         |                                  
+116 C10B |         JUMPI Fibb        
+         |                          
+117 7000 |  End    HALT             / Halt process
+         |                          
+         |                          / variables
+118 0000 |  COUNT  DEC 0            / count for loop
+119 0000 |  Fi     DEC 0             
+11A 0000 |  F1     DEC 0             
+11B 0001 |  F2     DEC 1             
+         |                          
+         |                          / constant values
+11C 0000 |  ZERO   DEC 0             
+11D 0001 |  ONE    DEC 1             
+11E 0002 |  TWO    DEC 2             
+11F 0003 |  THREE  DEC 3             
+120 0004 |  FOUR   DEC 4             
+121 0005 |  FIVE   DEC 5             
+122 0006 |  SIX    DEC 6             
+123 0007 |  SEVEN  DEC 7             
+         |                          
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          COUNT  |   118   | 102, 106, 108
+          Cond   |   102   | 10A
+          End    |   117   | 105
+          F1     |   11A   | 10D, 111
+          F2     |   11B   | 10E, 110, 113
+          FIVE   |   121   | 
+          FOUR   |   120   | 
+          Fi     |   119   | 10F, 112, 114
+          Fibb   |   10B   | 109, 116
+          Loop   |   106   | 
+          ONE    |   11D   | 100, 107
+          SEVEN  |   123   | 
+          SIX    |   122   | 103
+          THREE  |   11F   | 
+          TWO    |   11E   | 
+          ZERO   |   11C   | 
+         --------------------------------------------------
+
+

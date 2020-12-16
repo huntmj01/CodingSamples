@@ -1,0 +1,39 @@
+/
+/ Matthew Hunt
+/ 10/20/2016
+/ Lab 1.4
+/ CS 271
+/
+/ Case: cond = 0 then Y should be output
+/ Case: cond = 1  then X should be output
+/
+
+	ORG	100 
+
+	Load	X       / Load X into AC
+	Store 	Temp	/ Store X in Temp.
+	Load	Cond	/ Load Cond into AC.
+	Skipcond 400	/ Skip next instruction if X is zero.
+	JnS	Subr    / Store the return address, and jump to the procedure.
+
+	Load	Y       / Load Y into Ac.
+	Store	Temp	/ Store Y in Temp.
+	Load	Cond	/ Load Cond into AC
+	Skipcond 800	/ Skip if Cond is 1.
+	JnS	Subr    / Store the return address and jump to the procedure.
+
+	Load	Num	/ Load Num into AC.
+	Output		/ Output Num to console.
+	Halt            / End program.
+
+X,	DEC	10	/ Declare varriable to hold X.
+Y,	DEC	20	/ Declare varriable to hold Y.
+Num,	DEC	00	/ Declare varriable to hold the number to output
+Cond,	DEC	01	/ Declare varriable to hold the condition of 1 or 0.
+Temp,	DEC	0	/ Declare varriable to to temporarily hold X and Y.
+Subr,	HEX	0	/ Declare varriable to hold return address.
+	
+	Load	Temp	/ Load Number into AC.
+	Store	Num 	/ Store Temp in Num.
+	JumpI	Subr	/ Return to caller.
+	END

@@ -1,0 +1,52 @@
+     Assembly listing for: Lab1_2.mas
+                Assembled: Thu Oct 20 10:12:58 EDT 2016
+
+         |                          /
+         |                          / Matthew Hunt
+         |                          / 10/20/2016
+         |                          / Lab 1.2
+         |                          / CS 271
+         |                          /
+         |         ORG 100          / Store information in memory starting at address 100.
+         |                          
+100 D10A |  Getch  LOADI Chptr      / Load the character found at address chptr.
+101 8400 |         SKIPCOND 400     / If the character is a null, we are done.
+102 9104 |         JUMP Outp        / Otherwise, jump to output section.
+103 7000 |         HALT             / End Operation
+         |                          
+104 6000 |  Outp   OUTPUT           / Output the character.
+105 110A |         LOAD Chptr       / Load the character pointer.
+106 3109 |         ADD One          / Add one to the character pointer.
+107 210A |         STORE Chptr      / Store the character pointer.
+108 9100 |         JUMP Getch       / Jump back to get character section.
+         |                          
+109 0001 |  One    HEX 0001         / Declare hex varriable and assign it to 1.
+10A 010B |  Chptr  HEX 10B          / Declare hex varriable and assign it to 10B.
+10B 0048 |  String DEC 072          / Declare decimal varriable and assign it to ASCII value of H.
+10C 0065 |         DEC 101          / Declare decimal varriable and assign it to ASCII value of e.
+10D 006C |         DEC 108          / Declare decimal varriable and assign it to ASCII value of l.
+10E 006C |         DEC 108          / Declare decimal varriable and assign it to ASCII value of l.
+10F 006F |         DEC 111          / Declare decimal varriable and assign it to ASCII value of o.
+110 0020 |         DEC 032          / Declare decimal varriable and assign it to ASCII value of [space].
+111 0043 |         DEC 067          / Declare decimal varriable and assign it to ASCII value of C.
+112 0053 |         DEC 083          / Declare decimal varriable and assign it to ASCII value of S.
+113 0032 |         DEC 050          / Declare decimal varriable and assign it to ASCII value of 2.
+114 0037 |         DEC 055          / Declare decimal varriable and assign it to ASCII value of 7.
+115 0031 |         DEC 049          / Declare decimal varriable and assign it to ASCII value of 1.
+116 0000 |         DEC 000          / Declare decimal varriable and assign it to ASCII value of [null].
+         |         END              / End of file.
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          Chptr  |   10A   | 100, 105, 107
+          Getch  |   100   | 108
+          One    |   109   | 106
+          Outp   |   104   | 102
+          String |   10B   | 
+         --------------------------------------------------
+
+

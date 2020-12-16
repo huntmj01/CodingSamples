@@ -1,0 +1,9 @@
+ -----------------
+ Symbol | Location
+ -------+---------
+ Chptr  |   10A
+ Getch  |   100
+ One    |   109
+ Outp   |   104
+ String |   10B
+

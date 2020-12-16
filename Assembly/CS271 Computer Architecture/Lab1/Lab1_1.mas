@@ -1,0 +1,60 @@
+/
+/ Matthew Hunt
+/ 10/20/2016
+/ Lab 1.1
+/ CS 271
+/
+/ 1
+/ 1
+/ 1+1 = 2
+/ 1+2 = 3
+/ 2+3 = 5
+/ 3+5 = 8
+/ 5+8 = 13  <-- Target
+/ 8+13 = 21 
+/
+
+ORG 100
+
+	LOAD		ONE	/ Load 1 into AC.
+	Output			/ Output 1.
+
+Cond,   LOAD            COUNT   / Load Count into AC
+        SUBT            SIX     / Remove 6 from the count
+        SKIPCOND        000     / Skip next instruction if AC < 0
+        JUMP            End     / Jump to the End Section which ends the loop.
+        
+Loop,   LOAD	        COUNT	/ Load Count into AC.
+        ADD	        ONE 	/ Increment Count by 1
+        STORE	        COUNT	/ Store AC in count
+        JNS             Fibb	/ Jump to Fibb section and store JNS.
+        JUMP	        Cond	/ Jump to Cond section.
+        
+Fibb,   HEX             000     / Store value for JNS.
+        CLEAR		        / Clear the AC.
+        ADD		F1      / Add F1 to AC.
+        ADD		F2      / Add F2 to AC.
+        STORE		Fi      / Store AC contents into Fi.
+        LOAD		F2      / Load F2 into AC.
+        STORE		F1      / Store F2 into F1.
+        LOAD		Fi      / Load Fi into AC.
+        STORE		F2      / Store Fi into F2.
+        LOAD		Fi      / Load Fi into AC.
+        OUTPUT	                / Output the current Fibonaci.
+        
+        JUMPI		Fibb	/ Jump back to caller.
+
+End,    HALT      		/ Terminate program.
+
+COUNT,	DEC	        0       / declare variable to hold count for loop
+Fi,	DEC	        0	/ declare variable to hold the result of F1+F2
+F1,	DEC	        0	/ declare variable to hold the Fib(n-1)
+F2,	DEC	        1	/ declare variable to hold the Fib(n-1)
+ZERO,	DEC	        0	/ declare variable to hold 0
+ONE,	DEC	        1	/ declare variable to hold 1
+TWO,	DEC	        2	/ declare variable to hold 2
+THREE,	DEC	        3	/ declare variable to hold 3
+FOUR,	DEC	        4	/ declare variable to hold 4
+FIVE,	DEC	        5	/ declare variable to hold 5
+SIX,	DEC	        6	/ declare variable to hold 6
+

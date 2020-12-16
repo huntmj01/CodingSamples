@@ -1,0 +1,68 @@
+     Assembly listing for: Lab1_3.mas
+                Assembled: Thu Oct 20 13:34:28 EDT 2016
+
+         |                          /
+         |                          / Matthew Hunt
+         |                          / 10/20/2016
+         |                          / Lab 1.3
+         |                          / CS 271
+         |                          /
+         |                          / if X > 1 then
+         |                          /	Y = X + X;
+         |                          /	X = 0;
+         |                          / endif;
+         |                          / Y = Y + 1;
+         |                          /
+         |                          / Case: X = 0 then Y should be 1
+         |                          / Case: X = 1 then Y should be 1
+         |                          / Case: X = 2 then Y should be 5
+         |                          /
+         |                          
+         |         ORG 100           
+         |                          
+100 1115 |  If     LOAD X           / Load X into AC.	
+101 4118 |         SUBT One         / Subtract one from X.
+102 2117 |         STORE Temp       / Store X-1 in Temp.
+103 1117 |         LOAD Temp        / Load temp into AC
+104 8400 |         SKIPCOND 400     / If AC = 0, skip the next instruction
+105 9107 |         JUMP Then        / Jump to Then section.
+106 910F |         JUMP EndIf       / Jump to EndIf section.
+         |                          
+107 1116 |  Then   LOAD Y           / Load Y into AC.
+108 3115 |         ADD X            / Y+X
+109 3115 |         ADD X            / Y+X
+10A 2116 |         STORE Y          / Store AC into Y.
+10B 1115 |         LOAD X           / Load X into AC.
+10C 4115 |         SUBT X           / X-X
+10D 2115 |         STORE X          / Set X to zero.
+10E 910F |         JUMP EndIf       / Jump to EndIf section.
+         |                          
+10F 1116 |  EndIf  LOAD Y           / Load Y into AC.	
+110 3118 |         ADD One          / Y+1
+111 2116 |         STORE Y          / Store Y+1
+112 1116 |         LOAD Y           / Load Y into AC.
+113 6000 |         OUTPUT           / Output AC to console.
+114 7000 |         HALT             / Terminate program
+         |                          
+115 0002 |  X      DEC 02           / Declare variable to hold X.
+116 0000 |  Y      DEC 00           / Declare variable to hold Y.
+117 0000 |  Temp   DEC 00           / Declare variable to hold temporary value of X.
+118 0001 |  One    DEC 01           / Declare varriable to hold one.
+         |         END               
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          EndIf  |   10F   | 106, 10E
+          If     |   100   | 
+          One    |   118   | 101, 110
+          Temp   |   117   | 102, 103
+          Then   |   107   | 105
+          X      |   115   | 100, 108, 109, 10B, 10C, 10D
+          Y      |   116   | 107, 10A, 10F, 111, 112
+         --------------------------------------------------
+
+
