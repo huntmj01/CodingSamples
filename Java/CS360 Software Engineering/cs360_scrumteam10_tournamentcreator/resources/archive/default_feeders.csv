@@ -1,0 +1,446 @@
+feeder_id,event_id,name
+1,1,Calumet
+2,1, East Chicago Central
+3,1, Gary West Side
+4,1, Griffith
+5,1, Hammond
+6,1, Hammond Academy of Science & Technology
+7,1, Hammond Bishop Noll
+8,1, Hammond Clark
+9,1, Hammond Gavit
+10,1, Hammond Morton
+11,1, Highland
+12,1, Lake Central
+13,1, Munster
+14,1, Whiting
+15,2,21st Century Charter - Gary
+16,2, Andrean
+17,2, Crown Point
+18,2, Lighthouse CPA
+19,2, Gary Roosevelt
+20,2, Hanover Central
+21,2, Hebron
+22,2, Hobart
+23,2, Lowell
+24,2, Merrillville
+25,2, River Forest
+26,3,Boone Grove
+27,3, Chesterton
+28,3, Lake Station Edison
+29,3, LaPorte
+30,3, Marquette Catholic
+31,3, Michigan City
+32,3, New Prairie
+33,3, Portage
+34,3, South Central (Union Mills)
+35,3, Valparaiso
+36,3, Washington Township
+37,3, Westville
+38,3, Wheeler
+39,4,Covenant Christian (DeMotte)
+40,4, Kankakee Valley
+41,4, Knox
+42,4, Kouts
+43,4, LaCrosse
+44,4, Morgan Township
+45,4, North Judson-San Pierre
+46,4, North Newton
+47,4, Oregon-Davis
+48,4, Rensselaer Central
+49,4, South Newton
+50,4, West Central
+51,5,Attica
+52,5, Benton Central
+53,5, Covington
+54,5, Crawfordsville
+55,5, Fountain Central
+56,5, Frontier
+57,5, North Montgomery
+58,5, North Vermillion
+59,5, North White
+60,5, Seeger
+61,5, Southmont
+62,5, Tri-County
+63,5, Twin Lakes
+64,6,Clinton Central
+65,6, Clinton Prairie
+66,6, Delphi Community
+67,6, Faith Christian
+68,6, Frankfort
+69,6, Harrison (West Lafayette)
+70,6, Lafayette Central Catholic
+71,6, Lafayette Jefferson
+72,6, McCutcheon
+73,6, Rossville
+74,6, West Lafayette
+75,6, Western Boone
+76,7,Argos
+77,7, Caston
+78,7, Culver Academies
+79,7, Culver Community
+80,7, Manchester
+81,7, North Miami
+82,7, Plymouth
+83,7, Rochester Community
+84,7, Tippecanoe Valley
+85,7, Triton
+86,7, Warsaw Community
+87,8,Carroll (Flora)
+88,8, Cass
+89,8, Eastern (Greentown)
+90,8, Kokomo
+91,8, Logansport
+92,8, Maconaquah
+93,8, Northwestern
+94,8, Peru
+95,8, Pioneer
+96,8, Taylor
+97,8, Western
+98,8, Winamac Community
+99,9,Bremen
+100,9, Glenn
+101,9, LaVille
+102,9, Mishawaka
+103,9, Mishawaka Marian
+104,9, Penn
+105,9, South Bend Adams
+106,9, South Bend Career Academy
+107,9, South Bend Clay
+108,9, South Bend Riley
+109,9, South Bend St. Joseph
+110,9, South Bend Washington
+111,10,Bethany Christian
+112,10, Concord
+113,10, Elkhart Central
+114,10, Elkhart Christian Academy
+115,10, Elkhart Memorial
+116,10, Fairfield
+117,10, Goshen
+118,10, Jimtown
+119,10, Lakeland Christian Academy
+120,10, Northridge
+121,10, NorthWood
+122,10, Wawasee
+123,11,Angola
+124,11, Central Noble
+125,11, Churubusco
+126,11, DeKalb
+127,11, East Noble
+128,11, Eastside
+129,11, Fremont
+130,11, Hamilton
+131,11, Lakeland
+132,11, Prairie Heights
+133,11, West Noble
+134,11, Westview
+135,12,Carroll (Fort Wayne)
+136,12, Columbia City
+137,12, Fort Wayne Bishop Dwenger
+138,12, Fort Wayne Blackhawk Christian
+139,12, Fort Wayne Concordia Lutheran
+140,12, Fort Wayne North Side
+141,12, Fort Wayne Northrop
+142,12, Fort Wayne Snider
+143,12, Garrett
+144,12, Homestead
+145,12, Lakewood Park Christian
+146,12, Leo
+147,12, Whitko
+148,13,Adams Central
+149,13, Bellmont
+150,13, Bluffton
+151,13, Fort Wayne Bishop Luers
+152,13, Fort Wayne Canterbury
+153,13, Fort Wayne South Side
+154,13, Fort Wayne Wayne
+155,13, Heritage
+156,13, New Haven
+157,13, Norwell
+158,13, Smith Academy for Excellence
+159,13, South Adams
+160,13, Woodlan
+161,14,Blackford
+162,14, Eastbrook
+163,14, Huntington North
+164,14, Madison-Grant
+165,14, Marion
+166,14, Mississinewa
+167,14, Northfield
+168,14, Oak Hill
+169,14, Southern Wells
+170,14, Southwood
+171,14, Wabash
+172,15,Alexandria Monroe
+173,15, Anderson
+174,15, Anderson Preparatory Academy
+175,15, Blue River Valley
+176,15, Daleville
+177,15, Elwood Community
+178,15, Frankton
+179,15, Lapel
+180,15, Liberty Christian
+181,15, Mt. Vernon (Fortville)
+182,15, Pendleton Heights
+183,15, Shenandoah
+184,15, Yorktown
+185,16,Cowan
+186,16, Delta
+187,16, Jay County
+188,16, Monroe Central
+189,16, Muncie Burris
+190,16, Muncie Central
+191,16, Randolph Southern
+192,16, Union (Modoc)
+193,16, Union City
+194,16, Wapahani
+195,16, Wes-Del
+196,16, Winchester Community
+197,17,Avon
+198,17, Bethesda Christian
+199,17, Brownsburg
+200,17, Cascade
+201,17, Cloverdale
+202,17, Danville Community
+203,17, Greencastle
+204,17, North Putnam
+205,17, Plainfield
+206,17, South Putnam
+207,17, Tri-West Hendricks
+208,18,Ben Davis
+209,18, Covenant Christian (Indianapolis)
+210,18, Decatur Central
+211,18, Herron
+212,18, Indiana Math & Science Academy
+213,18, Indianapolis Crispus Attucks
+214,18, Indianapolis Northwest
+215,18, Indianapolis Shortridge
+216,18, International School of Indiana
+217,18, Pike
+218,18, Providence Cristo Rey
+219,18, Speedway
+220,18, Zionsville
+221,19,Carmel
+222,19, Fishers
+223,19, Guerin Catholic
+224,19, Hamilton Heights
+225,19, Hamilton Southeastern
+226,19, Lebanon
+227,19, Noblesville
+228,19, Sheridan
+229,19, Tindley
+230,19, Tipton
+231,19, University
+232,19, Westfield
+233,20,Brebeuf Jesuit Preparatory
+234,20, Heritage Christian
+235,20, Indiana School for the Deaf
+236,20, Indianapolis Arlington
+237,20, Indianapolis Arsenal Technical
+238,20, Indianapolis Bishop Chatard
+239,20, Indianapolis Cardinal Ritter
+240,20, Indianapolis Cathedral
+241,20, Lawrence Central
+242,20, Lawrence North
+243,20, North Central (Indianapolis)
+244,20, Park Tudor
+245,21,Beech Grove
+246,21, Eastern Hancock
+247,21, Franklin Central
+248,21, Greenfield-Central
+249,21, Indianapolis Emmerich Manual
+250,21, Indianapolis Lutheran
+251,21, Indianapolis Scecina Memorial
+252,21, Lighthouse Charter South
+253,21, Morristown
+254,21, New Palestine
+255,21, Roncalli
+256,21, Triton Central
+257,21, Warren Central
+258,22,Cambridge City Lincoln
+259,22, Centerville
+260,22, Connersville
+261,22, Franklin County
+262,22, Hagerstown
+263,22, Knightstown
+264,22, New Castle
+265,22, Northeastern
+266,22, Richmond
+267,22, Rushville Consolidated
+268,22, Seton Catholic
+269,22, Tri
+270,22, Union County
+271,23,Batesville
+272,23, East Central
+273,23, Greensburg
+274,23, Jac-Cen-Del
+275,23, Milan
+276,23, North Decatur
+277,23, Oldenburg Academy
+278,23, Rising Sun
+279,23, South Dearborn
+280,23, South Decatur
+281,23, South Ripley
+282,24,Center Grove
+283,24, Christel House Academy
+284,24, Eminence
+285,24, Franklin Community
+286,24, Greenwood Community
+287,24, Greenwood Christian Academy
+288,24, Monrovia
+289,24, Mooresville
+290,24, Perry Meridian
+291,24, Shelbyville
+292,24, Southport
+293,24, Waldron
+294,24, Whiteland Community
+295,25,Brown County
+296,25, Brownstown Central
+297,25, Columbus East
+298,25, Columbus North
+299,25, Crothersville
+300,25, Edinburgh
+301,25, Hauser
+302,25, Indian Creek
+303,25, Martinsville
+304,25, Seymour
+305,25, Southwestern (Shelbyville)
+306,25, Trinity Lutheran
+307,25, White River Valley
+308,26,Clay City
+309,26, Linton-Stockton
+310,26, North Central (Farmersburg)
+311,26, Northview
+312,26, Owen Valley
+313,26, Riverton Parke
+314,26, Rockville
+315,26, Shakamak
+316,26, South Vermillion
+317,26, Sullivan
+318,26, Terre Haute North
+319,26, Terre Haute South
+320,26, Turkey Run
+321,26, West Vigo
+322,27,Bedford North Lawrence
+323,27, Bloomfield
+324,27, Bloomington North
+325,27, Bloomington South
+326,27, Eastern (Pekin)
+327,27, Eastern Greene
+328,27, Edgewood
+329,27, Medora
+330,27, Mitchell
+331,27, Orleans
+332,27, Paoli
+333,27, Salem
+334,27, West Washington
+335,28,Austin
+336,28, Charlestown
+337,28, Henryville
+338,28, Jennings County
+339,28, Madison Consolidated
+340,28, New Washington
+341,28, Scottsburg
+342,28, Shawe Memorial
+343,28, Silver Creek
+344,28, Southwestern (Hanover)
+345,28, Switzerland County
+346,29,Borden
+347,29, Christian Academy of Indiana
+348,29, Clarksville
+349,29, Corydon Central
+350,29, Crawford County
+351,29, Floyd Central
+352,29, Jeffersonville
+353,29, Lanesville
+354,29, New Albany
+355,29, North Harrison
+356,29, Providence
+357,29, South Central (Elizabeth)
+358,30,Cannelton
+359,30, Forest Park
+360,30, Heritage Hills
+361,30, Jasper
+362,30, Loogootee
+363,30, Northeast Dubois
+364,30, Perry Central
+365,30, Shoals
+366,30, South Spencer
+367,30, Southridge
+368,30, Springs Valley
+369,30, Tell City
+370,31,Barr-Reeve
+371,31, Gibson Southern
+372,31, North Daviess
+373,31, North Knox
+374,31, Pike Central
+375,31, Princeton Community
+376,31, South Knox
+377,31, Tecumseh
+378,31, Vincennes Lincoln
+379,31, Vincennes Rivet
+380,31, Washington
+381,31, Washington Catholic
+382,32,Boonville
+383,32, Castle
+384,32, Evansville Bosse
+385,32, Evansville Central
+386,32, Evansville Harrison
+387,32, Evansville Mater Dei
+388,32, Evansville Memorial
+389,32, Evansville North
+390,32, Evansville F.J. Reitz
+391,32, Mt. Vernon
+392,32, North Posey
+393,32, Signature
+394,33,Crown Point
+395,33,Hammond Gavit
+396,34,Chesterton
+397,34,Renssealer Central
+398,35,Benton Central
+399,35,Harrison (West Lafayette)
+400,36,Culver Academies
+401,36,Logansport
+402,37,Elkhart Central
+403,37,South Bend Riley
+404,38,Fort Wayne Northrop
+405,38,West Noble
+406,39,Bellmont 
+407,39,Marion
+408,40,Delta
+409,40,Pendelton Heights
+410,41,Ben Davis
+411,41,South Putnam
+412,42,Brebeuf Jesuit Preparatory
+413,42,Noblesville
+414,43,Connersville
+415,43,New Palestine
+416,44,Franklin Community
+417,44,South Dearborn
+418,45,Brown County
+419,45,Southwestern (Hanover)
+420,46,Bedford North Lawrence
+421,46,Terra Haute North Vigo
+422,47,Crawford County
+423,47,Jasper
+424,48,Evansville Mater Dei
+425,48,South Knox
+426,49,Bedford North Lawrence
+427,49,Brown County
+428,49,Crawford County
+429,49,Pike Central
+430,50,Ben Davis
+431,50,Noblesville
+432,50,Rushville
+433,50,Shelbyville
+434,51,Delta
+435,51,Elkhart Central
+436,51,Marion
+437,51,West Noble
+438,52,Crown Point
+439,52,Culver Academies
+440,52,Harrison (West Lafayette)
+441,52,New Prairie
+442,53,Brown County
+443,53,Shelbyville
+444,53,New Haven
+445,53,New Prairie

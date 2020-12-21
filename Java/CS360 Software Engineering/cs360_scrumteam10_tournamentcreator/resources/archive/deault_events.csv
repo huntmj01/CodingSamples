@@ -1,0 +1,54 @@
+event_id,tier_id,name,location
+1,1,Hammond Gavit,Riverside Park
+2,1,Crown Point,Lemon Lake County Park
+3,1,New Prairie,
+4,1,Rensselaer Central,
+5,1,Benton Central,
+6,1,Harrison (West Lafayette),Tippecanoe Amphitheater
+7,1,Culver Academies,
+8,1,Logansport,
+9,1,South Bend Riley,
+10,1,Elkhart Central,Oxbow Park
+11,1,West Noble,
+12,1,Fort Wayne Northrop,
+13,1,Bellmont,
+14,1,Marion,Indiana Wesleyan University
+15,1,Pendleton Heights,
+16,1,Delta,Muncie Sports Plex
+17,1,South Putnam,
+18,1,Ben Davis,
+19,1,Noblesville,White River Elementary
+20,1,Brebeuf Jesuit Preparatory,
+21,1,New Palestine,
+22,1,Connersville,
+23,1, South Dearborn,
+24,1,Franklin Community,
+25,1,Brown County,Eagle Park
+26,1,Terre Haute North,LaVern Gibson XC Course
+27,1,Bedford North Lawrence,
+28,1,Hanover,Hanover College XC Course
+29,1,Crawford County,
+30,1,Jasper,Vincennes University Jasper
+31,1,South Knox,
+32,1,Evansville Mater Dei ,Angel Mounds
+33,2,Crown Point,Lemon Lake County Park
+34,2,New Prairie,
+35,2,Harrison (West Lafayette),Tippecanoe Amphitheater
+36,2,Culver Academies,
+37,2,Elkhart Central,Oxbow Park
+38,2,West Noble,
+39,2,Marion,Indiana Wesleyan University
+40,2,Delta,Muncie Sports Plex
+41,2,Ben Davis,
+42,2,Noblesville,White River Elementary
+43,2,Rushville Consolidated,Benjamin Rush Middle School
+44,2,Shelbyville,Blue River Memorial Park
+45,2,Brown County,Eagle Park
+46,2,Bedford North Lawrence,
+47,2,Crawford County,
+48,2,Pike Central ,Prides Creek Golf Course
+49,3,Brown County,Eagle Park
+50,3, Shelbyville,Blue River Park
+51,3,New Haven,The Plex IPFW
+52,3,New Prairie,
+53,4,LaVern Gibson Championship,Wabash Valley Sports Center
