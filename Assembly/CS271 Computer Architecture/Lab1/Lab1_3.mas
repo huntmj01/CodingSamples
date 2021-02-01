@@ -1,0 +1,48 @@
+/
+/ Matthew Hunt
+/ 10/20/2016
+/ Lab 1.3
+/ CS 271
+/
+/ if X > 1 then
+/	Y = X + X;
+/	X = 0;
+/ endif;
+/ Y = Y + 1;
+/
+/ Case: X = 0 then Y should be 1
+/ Case: X = 1 then Y should be 1
+/ Case: X = 2 then Y should be 5
+/
+
+	ORG 100
+
+If,	Load	 	X	/ Load X into AC.	
+	Subt	 	One	/ Subtract one from X.
+	Store	 	Temp	/ Store X-1 in Temp.
+	Load	 	Temp	/ Load temp into AC
+	Skipcond 	400	/ If AC = 0, skip the next instruction
+	Jump 	 	Then	/ Jump to Then section.
+	Jump		EndIf	/ Jump to EndIf section.
+
+Then,	Load 		Y	/ Load Y into AC.
+	Add		X	/ Y+X
+	Add		X	/ Y+X
+	Store		Y	/ Store AC into Y.
+	Load		X	/ Load X into AC.
+	Subt		X	/ X-X
+	Store		X	/ Set X to zero.
+	Jump		EndIf	/ Jump to EndIf section.
+
+EndIf,	Load		Y	/ Load Y into AC.	
+	Add		One	/ Y+1
+	Store 		Y	/ Store Y+1
+	Load		Y	/ Load Y into AC.
+	Output			/ Output AC to console.
+	Halt			/ Terminate program
+
+X,	Dec	 	02	/ Declare variable to hold X.
+Y,	Dec	 	00	/ Declare variable to hold Y.
+Temp,	Dec	 	00	/ Declare variable to hold temporary value of X.
+One,	Dec	 	01	/ Declare varriable to hold one.
+	END

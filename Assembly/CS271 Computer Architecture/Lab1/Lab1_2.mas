@@ -1,0 +1,34 @@
+/
+/ Matthew Hunt
+/ 10/20/2016
+/ Lab 1.2
+/ CS 271
+/
+	ORG 100			/ Store information in memory starting at address 100.
+
+Getch,	LoadI	   Chptr	/ Load the character found at address chptr.
+	Skipcond   400		/ If the character is a null, we are done.
+	Jump	   Outp		/ Otherwise, jump to output section.
+	Halt			/ End Operation
+
+Outp,	Output			/ Output the character.
+	Load	   Chptr	/ Load the character pointer.
+	Add	   One		/ Add one to the character pointer.
+	Store	   Chptr	/ Store the character pointer.
+	Jump	   Getch	/ Jump back to get character section.
+
+One,	Hex	0001		/ Declare hex varriable and assign it to 1.
+Chptr, 	Hex	10B		/ Declare hex varriable and assign it to 10B.
+String,	Dec	072  		/ Declare decimal varriable and assign it to ASCII value of H.
+	Dec	101  		/ Declare decimal varriable and assign it to ASCII value of e.
+	Dec	108  		/ Declare decimal varriable and assign it to ASCII value of l.
+	Dec	108  		/ Declare decimal varriable and assign it to ASCII value of l.
+	Dec	111  		/ Declare decimal varriable and assign it to ASCII value of o.
+	Dec	032  		/ Declare decimal varriable and assign it to ASCII value of [space].
+	Dec	067  		/ Declare decimal varriable and assign it to ASCII value of C.
+	Dec	083  		/ Declare decimal varriable and assign it to ASCII value of S.
+	Dec	050  		/ Declare decimal varriable and assign it to ASCII value of 2.
+	Dec	055  		/ Declare decimal varriable and assign it to ASCII value of 7.
+	Dec	049  		/ Declare decimal varriable and assign it to ASCII value of 1.
+	Dec	000  		/ Declare decimal varriable and assign it to ASCII value of [null].
+        END			/ End of file.

@@ -1,0 +1,263 @@
+
+/*@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+*/
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Gloria+Hallelujah|Press+Start+2P|Cabin+Sketch|Monoton|Sedgwick+Ave+Display');
+@import "bootstrap-social.css";
+
+/*
+setting font-family for the entire webpage
+*/
+html{
+    /*font-family:'Quicksand';
+    */
+    
+}
+
+/*h1{
+    
+    font-family:'Monoton', cursive;
+    font-size: 4em;
+    text-align: center;
+    color: #333333;
+    /*background-color:#F2F4F2;*/
+    /*background-color: white;
+    cursor: pointer;
+}
+
+
+
+body{
+    
+    /*background-color: #F2F4F2;*/
+    /*background-color:white;
+}*/
+
+/*#titleID{
+    text-decoration:none;
+    color:#333333;
+    font-weight: bolder;
+}*/
+
+
+
+/*a{
+    color:#280003;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #233252;
+    
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    /*font-family: "Monoton";*/
+   /* display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a:hover {
+    background-color: #436436;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#infoTabs{
+    background-color: #B55F13;
+}*/
+
+.loginPg1, .loginPg2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+}
+
+.signBtns{
+    /*font-family: 'Gloria Hallelujah', cursive;*/
+    font-weight: bolder;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.signBtns:hover{
+    background-color: #436436;
+    color:white;
+}
+fieldset { 
+    margin-top: 1em;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: auto;
+    padding-right: auto;
+    border:none;
+    font-size: 2em;
+    /*border: 0px groove (internal value);*/
+}
+
+/*form{
+    text-align:center;
+    font-size: 1em;
+    color:#333333;
+}*/
+/*
+.inputFields{
+    color:#333333;
+    
+    text-align: center;
+    font-size: 0.7em;
+    margin-left: 5px;
+    padding: 12px;
+    border-radius: 28px;
+    outline: none;
+}
+
+#loginBtn{
+    
+    font-weight: bolder;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#loginBtn:hover{
+    background-color: #436436;
+    color:white;
+}
+
+#forgotPass:hover{
+    color:#B55F13;
+    font-weight: bolder;
+    font-size:1em;
+}
+
+.inputLbls{
+    
+}*/
+
+/*#uploadBtn{
+   
+    font-size: 0.6em;
+    background-color:#233252;
+    color:white;
+}
+
+#uploadBtn:hover{
+    font-size: 1em;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #B55F13;
+}*/
+
+#note{
+    font-size: 0.4em;
+    color: red !important;
+    /*font-family: 'Gloria Hallelujah', cursive;*/
+}
+/*
+
+
+h2{
+   font-size: 2em;
+    
+}
+h3{
+   font-size: 0.8em;
+    
+}
+p{
+    font-size: 0.8em;
+
+}*/
+/*
+#logoImg{
+    width: 70;
+    height: 47;
+}
+
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+	line-height: 300%;
+}
+	
+.omb_login .omb_socialButtons a {
+	color: white; 
+	opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;    	
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}			
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+	
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+		margin-top:10px;
+ 	}		
+}
+
+.help-block{
+    visibility:  hidden;
+}
+*/

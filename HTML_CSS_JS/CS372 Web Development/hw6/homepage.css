@@ -1,0 +1,91 @@
+.middle-box {
+    margin: 5%;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.header {
+    background-color: lightblue;
+    overflow: auto;
+    border-radius: 16px;
+}
+
+.header > .align > .left {
+    float: left;
+}
+
+.header > .align > .right {
+    float: right;
+}
+
+.main {
+    background-color: lightgray;
+    overflow: auto;
+    border-radius: 16px;
+}
+
+.main > .left{
+    position: fixed;
+    width: 15%;
+    height: 1000px;
+    float: left;
+}
+
+.main > .center {
+      margin-left: 15%;
+    background-color: lightyellow;
+    width: 70%;
+    float: left;
+}
+
+.main > .right {
+    width: 15%;
+    float: right;
+}
+
+nav {
+    background-color: transparent;
+}
+
+nav > a {
+    color: #fff; margin: 10px;
+}
+
+
+object, iframe {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 500px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 500px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background: #CCC;
+}
+tr:nth-child(odd) {
+    background: #FFF
+}
+tr:hover {
+    background: lightblue;
+}
